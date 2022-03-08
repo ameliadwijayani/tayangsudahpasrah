@@ -1,8 +1,7 @@
 backend:
   name: github
   repo: ameliadwijayani/tayangsudahpasrah
-  branch: master
-
+  branch: main
 media_folder: /static
 public_folder: /img
 
