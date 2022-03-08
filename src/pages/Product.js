@@ -22,7 +22,8 @@ export default function Product({data}) {
             <div className="project-item filterable-item shopping-center">
               <figure className="featured-image">
                 <a href="project-single.html">
-                  <img src={node.frontmatter.images?.childImageSharp.gatsbyImageData.images.fallback.src }alt="#" />
+                  <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src }alt="" />
+                  <img src={node.frontmatter.images?.childImageSharp.gatsbyImageData.images.fallback.src }alt="" />
                   </a>
                 <figcaption>
                   <h2 className="project-title">{node.frontmatter.title}</h2>
