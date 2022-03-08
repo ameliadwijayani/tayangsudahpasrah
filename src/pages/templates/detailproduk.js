@@ -32,7 +32,7 @@ const FamousPeople = ({data}) => {
 export default FamousPeople;
 
 export const query = graphql`
-    query($slug: String!) {
+    query($slug) {
         markdownRemark(fields: { slug: { eq: $slug} }) {
             html
             frontmatter {
