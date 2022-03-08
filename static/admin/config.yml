@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: ameliadwijayani/tayangsudahpasrah
-  branch: main
+  name: git-gateway
+  branch: master
   
 media_folder: /static
 public_folder: /img
