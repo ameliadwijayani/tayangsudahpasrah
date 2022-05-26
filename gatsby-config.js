@@ -1,3 +1,4 @@
+let siteUrl='https://samijaya.netlify.app'
 module.exports = {
     siteMetadata: {
         
@@ -46,14 +47,9 @@ module.exports = {
                   path
                 }
               }
-              site {
-                siteMetadata {
-                  siteUrl
-                }
-              }
             }`,
-            
-            serialize: ({ path, siteUrl,slug }) => {
+            resolveSiteUrl: () => siteUrl,
+            serialize: ({ path,slug }) => {
               let pages = []
               pages.push({
                 url:path
