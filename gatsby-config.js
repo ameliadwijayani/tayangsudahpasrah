@@ -4,7 +4,7 @@ module.exports = {
     title: `Samijaya Probolinggo`,
     description: `Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami.`,
     author: `@samijayaprobolinggo`,
-    siteUrl: `https://www.example.com`,
+    siteUrl:`https://samijaya.netlify.app/`
     
     },
     plugins: [
@@ -29,10 +29,68 @@ module.exports = {
           },
         },
         {
+          resolve: `gatsby-plugin-sitemap`,
+          options: {
+            query: `{
+              allMarkdownRemark {
+                edges {
+                  node {
+                    fields {
+                      slug
+                    }
+                  }
+                }
+              }
+              site {
+                siteMetadata {
+                  siteUrl
+                }
+              }
+            }`,
+            serialize: ({ site, allSitePage, allMarkdownRemark }) => {
+              let pages = []
+              allMarkdownRemark.edges.map(edge => {
+                pages.push({
+                  url: `${site.siteMetadata.siteUrl}${
+                    edge.node.fields.slug
+                  }`,
+                  changefreq: `daily`,
+                  priority: 0.7,
+                })
+              })
+    
+              return pages
+            },
+          },
+        },
+        {
           resolve: `gatsby-source-filesystem`,
           options: {
             name: `produk`,
             path: `${__dirname}/fileproduk`,
+          },
+        },
+        {
+          resolve: "gatsby-plugin-prettier-eslint",
+          options: {
+            prettier: {
+              patterns: [
+                // the pattern "**/*.{js,jsx,ts,tsx}" is not used because we will rely on `eslint --fix`
+                "**/*.{css,scss,less}",
+                "**/*.{json,json5}",
+                "**/*.{graphql}",
+                "**/*.{md,mdx}",
+                "**/*.{html}",
+                "**/*.{yaml,yml}",
+              ],
+            },
+            eslint: {
+              patterns: "**/*.{js,jsx,ts,tsx}",
+              customOptions: {
+                fix: true,
+                cache: true,
+              },
+            },
           },
         },
     ]

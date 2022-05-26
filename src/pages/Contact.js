@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./Header"
 import Footer from "./Footer"
-
+import { Link } from "gatsby"
 import SEO from "./component/Seo"
 export default function Contact() {
   return (
@@ -12,11 +12,29 @@ export default function Contact() {
     <main className="main-content">
         <div className="page">
         <div className="container">
-            <a href="Product" className="button-back"><img src="./arrow-back.png" alt className="icon" />Back to the Product</a>
+            <Link to="/Product" className="button-back"><img src="./arrow-back.png" alt className="icon" />Back to the Product</Link>
             <div className="row">
-            <div className="col-md-8">
-                <div className="map" />
+            <div className="col-md-6">
+                
                 <div className="contact-detail">
+                <h2 className="section-title">Get in Touch</h2>
+                <span>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</span><br/>
+                <div className="row">
+                  <div className="col-md-4">
+                    <img src="./phoneee.png" alt=""  width="100" height="100"/>
+                  </div>
+                  <div className="col-md-4">
+                    <img src="./email.jpg" alt=""  width="100" height="100"/><br/>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-4">
+                <span>+ 08123456789</span>
+                  </div>
+                  <div className="col-md-4">
+                <span>samijayaprobolinggo@gmail.com</span>
+                  </div>
+                </div>
                 {/* <address>
                     <div className="contact-icon">
                     <img src="./icon-marker.png" className="icon" />
@@ -29,17 +47,8 @@ export default function Contact() {
             </div>
             <div className="col-md-3 col-md-offset-1">
                 <div className="contact-form">
-                <h2 className="section-title">Write us</h2>
-                <p>Dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam dolorem.</p>
-                <form action="#">
-                    <input type="text" placeholder="Your name.." />
-                    <input type="text" placeholder="Email.." />
-                    <input type="text" placeholder="website.." />
-                    <textarea placeholder="Message..." defaultValue={""} />
-                    <p className="text-right">
-                    <button type="submit">Send message</button>
-                    </p>
-                </form>
+                <img src="./countactus.jpg" alt=""  width="500" height="320"/>
+               
                 </div>
             </div>
             </div>
