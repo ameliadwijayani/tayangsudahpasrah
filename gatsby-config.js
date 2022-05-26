@@ -34,11 +34,9 @@ module.exports = {
           options: {
             query: `{
               allMarkdownRemark {
-                edges {
-                  node {
-                    fields {
-                      slug
-                    }
+                nodes {
+                  fields {
+                    slug
                   }
                 }
               }
@@ -49,15 +47,25 @@ module.exports = {
               }
             }`,
             resolveSiteUrl: () => siteUrl,
-            serialize: ({ path,slug }) => {
-              let pages = []
-              pages.push({
-                url:path
+            resolvePages: ({
+              allSitePage: { nodes: allPages },
+              allMarkdownRemark: { nodes: md },
+            }) => {
+              const wpNodeMap = md.reduce((acc, node) => {
+                const { slug } = node.fields
+                acc[slug] = node
+    
+                return acc
+              }, {})
+    
+              return allPages.map(page => {
+                return { ...page, ...wpNodeMap[page.path] }
               })
-              pages.push({
-                url:slug
-              })
-              return pages
+            },
+            serialize: ({ path }) => {
+              return {
+                url: path,
+              }
             },
           },
         },
