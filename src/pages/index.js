@@ -13,7 +13,7 @@ export default function Home() {
           <div className="row">
             <div className="col-sm-6 col-md-3">
               <div className="project">
-                <figure className="project-thumbnail"><img alt="Img" src="../philips1.jpg" alt="Philips Multipack" width="500" height="200"/></figure>
+                <figure className="project-thumbnail"><img alt="Img" src="../philips1.jpg" width="500" height="200"/></figure>
                 <h3 className="project-title"><a href="#">Philips Multipack</a></h3>
                 <p>Lampu Philips Multipack MyCare LedBulb 6W,8W,10W,12W</p>
                 {/* <a href="#" className="more-link"><img alt="Img" src="images/arrow.png" alt /></a> */}
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className="col-sm-6 col-md-3">
               <div className="project">
-                <figure className="project-thumbnail"><img alt="Img" src="../xiaomi.jpg" alt="Project 2" width="500" height="200" /></figure>
+                <figure className="project-thumbnail"><img alt="Img" src="../xiaomi.jpg"  width="500" height="200" /></figure>
                 <h3 className="project-title"><a href="#">Xiao Mi Black Shark</a></h3>
                 <p>Xiaomi Black Shark merupakan smartphone yang diciptakan khusus untuk main game.</p>
                 {/* HP Black Shark ini menggunakan prosesor Snapdragon 845 yang dipadukan dengan grafis Adreno 630 GPU. Smartphone ini memiliki dua varian RAM yaitu RAM 6GB dengan memori internal 64GB dan RAM 8GB dengan memori internal 128GB */}
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="col-sm-6 col-md-3">
               <div className="project">
-                <figure className="project-thumbnail"><img alt="Img" src="../cosmos1.jpg" alt="Project 3" width="500" height="200"/></figure>
+                <figure className="project-thumbnail"><img alt="Img" src="../cosmos1.jpg"  width="500" height="200"/></figure>
                 <h3 className="project-title"><a href="#">Magic Com Cosmos</a></h3>
                 <p>Cosmos Low Watt Rice Cooker CRJ 6601 merupakan rice coker yang memiliki fungsi sebagai penanak, penghangat, dan pengukus nasi.</p>
                 {/* Lapisan pancinya anti gores dan anti lengket sehingga mudah untuk dibersihkan. */}
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="col-sm-6 col-md-3">
               <div className="project">
-                <figure className="project-thumbnail"><img alt="Img" src="../lg1.jpg" alt="Project 3" width="500" height="200"/></figure>
+                <figure className="project-thumbnail"><img alt="Img" src="../lg1.jpg"  width="500" height="200"/></figure>
                 <h3 className="project-title"><a href="#">LED TV LG 32inch</a></h3>
                 <p>LG 32LK500BPTA adalah TV LED 32 inci dengan ketajaman gambar yang akurat dan dibekali fitur hemat energi.</p>
                 {/* <a href="#" className="more-link"><img alt="Img" src="images/arrow.png" alt /></a> */}
@@ -119,7 +119,7 @@ export default function Home() {
   <SEO title="Index" />
     <Header/>
    
-    <img alt="Img" src="../cobabg.jpg" alt="Project 1" width="100%" height="1000" style={{float:"center"}}/>
+    <img alt="Img" src="../cobabg.jpg" width="100%" height="1000" style={{float:"center"}}/>
     
     <main className="main-content">
    

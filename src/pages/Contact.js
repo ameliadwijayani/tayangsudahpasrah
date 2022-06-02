@@ -12,7 +12,7 @@ export default function Contact() {
     <main className="main-content">
         <div className="page">
         <div className="container">
-            <Link to="/Product" className="button-back"><img alt="Img" src="/arrow-back.png" alt className="icon" />Back to the Product</Link>
+            <Link to="/Product" className="button-back"><img alt="Img" src="/arrow-back.png"  className="icon" />Back to the Product</Link>
             <div className="row">
             <div className="col-md-6">
                 
@@ -21,10 +21,10 @@ export default function Contact() {
                 <span>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</span><br/>
                 <div className="row">
                   <div className="col-md-4">
-                    <img alt="Img" src="/phoneee.png" alt=""  width="100" height="100"/>
+                    <img alt="Img" src="/phoneee.png"   width="100" height="100"/>
                   </div>
                   <div className="col-md-4">
-                    <img alt="Img" src="/email.jpg" alt=""  width="100" height="100"/><br/>
+                    <img alt="Img" src="/email.jpg"   width="100" height="100"/><br/>
                   </div>
                 </div>
                 <div className="row">
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
             <div className="col-md-3 col-md-offset-1">
                 <div className="contact-form">
-                <img alt="Img" src="/countactus.jpg" alt=""  width="500" height="320"/>
+                <img alt="Img" src="/countactus.jpg" width="500" height="320"/>
                
                 </div>
             </div>
