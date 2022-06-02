@@ -14,7 +14,7 @@ export default function Header() {
     <div className="site-header">
       <div className="container">
         <a href="index.html" id="branding">
-          <img src="/logo2.jpeg" alt="" className="logo" width="70" height="60"/>
+          <img alt="Img" src="/logo2.jpeg" alt="" className="logo" width="70" height="60"/>
           <div className="logo-text">
             <h1 className="site-title">Samijaya Probolinggo</h1>
             <small className="site-description">Electronics and Cellular</small>
