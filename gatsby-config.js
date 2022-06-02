@@ -23,6 +23,13 @@ module.exports = {
           },
         },
         {
+          resolve: 'gatsby-plugin-robots-txt',
+          options: {
+            host: 'https://samijaya.netlify.app/',
+            sitemap: 'https://samijaya.netlify.app/sitemap/sitemap-index.xml',
+          }
+        },
+        {
           resolve: `gatsby-source-filesystem`,
           options: {
             name: `images`,
