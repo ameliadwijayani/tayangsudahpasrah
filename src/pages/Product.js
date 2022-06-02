@@ -19,7 +19,7 @@ export default function Product({data}) {
 
         {data.allMarkdownRemark.edges.map(({node})=>{
           return(
-            <div className="project-item filterable-item shopping-center">
+            <div  className="project-item filterable-item shopping-center" style={{ widht:"30% !important" }}>
               <figure className="featured-image">
                 <a href="project-single.html">
                   <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src }alt="" />
@@ -27,7 +27,7 @@ export default function Product({data}) {
                   </a>
                 <figcaption>
                   <h2 className="project-title">{node.frontmatter.title}</h2>
-                  <p>{node.frontmatter.deskripsi}</p>
+                  <p>{node.frontmatter.deskripsi.substr(0,75)}</p>
                 </figcaption>
               </figure>
             </div>

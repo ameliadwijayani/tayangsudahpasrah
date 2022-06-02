@@ -10,25 +10,6 @@ export default function About() {
   <SEO title="About" />
   <Header/>
 
-  <Carousel
-    dynamicHeight={true}
-    style={{ 
-      minHeight:"50%"
-     }}
-  >
-      <div>
-          <img src="../cosmos1.jpg" />
-          <p className="legend">Legend 1</p>
-      </div>
-      <div>
-           <img src="../philips3.jpg" />
-          <p className="legend">Legend 2</p>
-      </div>
-      <div>
-          <img src="../lg3.jpg" />
-          <p className="legend">Legend 3</p>
-      </div>
-  </Carousel>
  
 
   <main className="main-content">

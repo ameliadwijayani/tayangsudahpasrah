@@ -4,13 +4,17 @@ import {Link} from 'gatsby'
 export default function Header() {
   const [CurrentState,setCurrentState]=React.useState("")
   React.useEffect(()=>{
-    setCurrentState("/"+window.location.href.split("/")[window.location.href.split("/").length-1])
+    let state=window.location.href.split("/")[window.location.href.split("/").length-1];
+    if(window.location.href.split("/")[window.location.href.split("/").length-1]==""){
+      state=(window.location.href.split("/")[window.location.href.split("/").length-2])
+    }
+    setCurrentState("/"+state)
   },[])
   return (
     <div className="site-header">
       <div className="container">
         <a href="index.html" id="branding">
-          <img src="./logo2.jpeg" alt="" className="logo" width="70" height="60"/>
+          <img src="/logo2.jpeg" alt="" className="logo" width="70" height="60"/>
           <div className="logo-text">
             <h1 className="site-title">Samijaya Probolinggo</h1>
             <small className="site-description">Electronics and Cellular</small>

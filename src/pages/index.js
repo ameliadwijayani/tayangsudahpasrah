@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
-import "./Styles.css"
 
 import SEO from "./component/Seo"
 export default function Home() {

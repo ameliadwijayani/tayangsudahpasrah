@@ -1688,9 +1688,10 @@
      height: 0; }
  
  .project-item {
-   width: 33.333%;
+   width: 20%;
    padding: 0 15px;
-   margin-bottom: 30px;
+   margin-bottom: 30px !important; 
+   box-sizing: unset;
    float: left; }
    @media screen and (max-width: 768px) {
      .project-item {
