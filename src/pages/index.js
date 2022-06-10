@@ -116,7 +116,7 @@ export default function Home() {
   return (
     
   <div id="site-content">
-  <SEO title="Index" />
+  <SEO title="Samijaya Probolinggo" />
     <Header/>
    
     <img alt="Img" src="../cobabg.jpg" width="100%" height="1000" style={{float:"center"}}/>

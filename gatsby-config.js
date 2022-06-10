@@ -5,7 +5,8 @@ module.exports = {
     title: `Samijaya Probolinggo`,
     description: `Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami.`,
     author: `@samijayaprobolinggo`,
-    siteUrl:`https://samijaya.netlify.app`
+    siteUrl:`https://samijaya.netlify.app`,
+    keyword: `lampu,toko,elektronik,probolinggo,samijaya,hp`
     
     },
     plugins: [
@@ -36,6 +37,11 @@ module.exports = {
             path: `${__dirname}/static`,
           },
         },
+
+        {
+          plugins: [`gatsby-plugin-react-helmet`]
+        },
+        
         {
           resolve: `gatsby-plugin-sitemap`,
           options: {

@@ -6,9 +6,10 @@
  
  function SEO({ description, lang, meta, title }) {
    
- 
+  
    const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami."
    const defaultTitle = `Samijaya Probolinggo`
+   const keywords=`lampu,toko,elektronik,probolinggo,samijaya,hp`
  
    return (
      <Helmet
@@ -25,6 +26,10 @@
          {
            property: `og:title`,
            content: title,
+         },
+         {
+           name: `keywords`,
+           content: keywords,
          },
          {
            property: `og:description`,
@@ -56,7 +61,7 @@
  }
  
  SEO.defaultProps = {
-   lang: `en`,
+   lang: `id`,
    meta: [],
    description: ``,
  }
