@@ -4,7 +4,7 @@
  import { useStaticQuery, graphql } from "gatsby"
  import "../Styles.css"
  
- function SEO({ description, lang, meta, title }) {
+ function SEO({ description, meta, title }) {
    
   
    const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami."
@@ -14,7 +14,7 @@
    return (
      <Helmet
        htmlAttributes={{
-         lang,
+         lang:"id"
        }}
        title={title}
        titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}

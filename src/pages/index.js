@@ -1,8 +1,5 @@
 import React from "react"
-import Header from "./Header"
-import Footer from "./Footer"
-
-import SEO from "./component/Seo"
+import Layout from "./Layout/Layout"
 export default function Home() {
 
   function Card_Product(){
@@ -114,22 +111,17 @@ export default function Home() {
   }
 
   return (
-    
-  <div id="site-content">
-  <SEO title="Samijaya Probolinggo" />
-    <Header/>
-   
-    <img alt="Img" src="../cobabg.jpg" width="100%" height="1000" style={{float:"center"}}/>
-    
-    <main className="main-content">
-   
-        {Card_Product()}
-        {Quality()}
-      
-        
-    </main> 
+    <Layout title="Home" >
 
-    <Footer/>
-  </div>
+      <div id="site-content">
+        
+          {/* <img alt="Img" src="../cobabg.jpg" width="100%" height="1000" style={{float:"center"}}/> */}
+          <main className="main-content">
+            {Card_Product()}
+            {Quality()}
+          </main> 
+
+        </div>
+    </Layout>
   )
 }

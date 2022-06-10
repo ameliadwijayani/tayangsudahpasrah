@@ -30,11 +30,8 @@ module.exports = {
             path: `${__dirname}/static`,
           },
         },
-
-        {
-          plugins: [`gatsby-plugin-react-helmet`]
-        },
-        
+        `gatsby-plugin-react-helmet`
+        ,
         {
           resolve: `gatsby-plugin-sitemap`,
           options: {

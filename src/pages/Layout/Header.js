@@ -3,6 +3,7 @@ import {Link} from 'gatsby'
 //current-menu-item
 export default function Header() {
   const [CurrentState,setCurrentState]=React.useState("")
+
   React.useEffect(()=>{
     let state=window.location.href.split("/")[window.location.href.split("/").length-1];
     if(window.location.href.split("/")[window.location.href.split("/").length-1]==""){
@@ -10,6 +11,7 @@ export default function Header() {
     }
     setCurrentState("/"+state)
   },[])
+  
   return (
     <div className="site-header">
       <div className="container">
