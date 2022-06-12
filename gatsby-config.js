@@ -2,11 +2,11 @@ let siteUrl='https://samijaya.netlify.app'
 module.exports = {
     siteMetadata: {
         
-    title: `Samijaya Probolinggo`,
+    title: `Toko Elektronik Terbaik Samijaya Probolinggo`,
     description: `Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami.`,
     author: `@samijayaprobolinggo`,
     siteUrl:`https://samijaya.netlify.app`,
-    keyword: `lampu,toko,elektronik,probolinggo,samijaya,hp`
+    keyword: `lampu,toko,elektronik,handphone,philipd,xiaomi`
     
     },
     plugins: [
@@ -21,6 +21,12 @@ module.exports = {
           options: {
             name: `images`,
             path: `${__dirname}/src/images`,
+          },
+        },
+        {
+          resolve: 'gatsby-plugin-manifest',
+          options: {
+            icon: 'src/assets/images/logo2.jpeg',
           },
         },
         {

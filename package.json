@@ -2,7 +2,7 @@
   "name": "gatsby-starter-minimal",
   "version": "1.0.0",
   "private": true,
-  "title":"Samijaya",
+  "title": "Samijaya",
   "description": "A Gatsby starter with no plugins and a single welcome page.",
   "author": "Laurie Barth",
   "keywords": [
@@ -19,7 +19,7 @@
   "dependencies": {
     "gatsby": "^4.9.2",
     "gatsby-plugin-image": "^2.9.0",
-    "gatsby-plugin-manifest": "^4.9.0",
+    "gatsby-plugin-manifest": "^4.16.0",
     "gatsby-plugin-mdx": "^3.9.0",
     "gatsby-plugin-netlify-cms": "^6.9.0",
     "gatsby-plugin-purgecss": "^6.1.1",
