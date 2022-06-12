@@ -7,8 +7,8 @@
  function SEO({ description, meta, title }) {
    
   
-   const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami."
-   const defaultTitle = `Toko Elektronik Terbaik Samijaya Probolinggo`
+   const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP."
+   const defaultTitle = `Samijaya Probolinggo adalah Toko Elektronik Terbaik di Probolinggo`
    const keywords=`lampu,toko,elektronik,probolinggo,samijaya,hp`
  
    return (
