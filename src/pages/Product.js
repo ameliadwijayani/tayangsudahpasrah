@@ -1,45 +1,74 @@
 import React from 'react';
 import { graphql } from "gatsby";
 
-import Layout from "./Layout/Layout"
+import { Link } from "gatsby"
+import Layout from "../Layout/Layout"
 export default function Product({data}) {
+  
   return (
     <Layout title="Product" >
-      
   <div id="site-content">
-    
-  <main className="main-content">
-    <div className="page">
+   <div>
+  <section id="subintro">
+    <div className="jumbotron subhead" id="overview">
       <div className="container">
-        <h2 className="entry-title">Produk Kami</h2>
-       
-        <div className="filterable-items">
-
-        {data.allMarkdownRemark.edges.map(({node})=>{
-          return(
-            <div  className="project-item filterable-item shopping-center" style={{ widht:"30% !important" }}>
-              <figure className="featured-image">
-                <a href="project-single.html">
-                  <img alt="Img" src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } />
-                  {/* <img alt="Img" src={node.frontmatter.images?.childImageSharp.gatsbyImageData.images.fallback.src }alt="" /> */}
-                  </a>
-                <figcaption>
-                  <h2 className="project-title">{node.frontmatter.title}</h2>
-                  <p>{node.frontmatter.deskripsi.substr(0,75)}</p>
-                </figcaption>
-              </figure>
+        <div className="row">
+          <div className="span12">
+            <div className="centered">
+              <h3>Produk Kami</h3>
+              
             </div>
-          )
-        })
-
-        }
-
-          
-
+          </div>
         </div>
       </div>
     </div>
-  </main>
+  </section>
+  <section id="breadcrumb">
+    <div className="container">
+      <div className="row">
+        <div className="span12">
+          <ul className="breadcrumb notop">
+            <li><Link to="/">Home</Link><span className="divider">/</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="maincontent">
+    <div className="container">
+        <div class="span8">
+            {data.allMarkdownRemark.edges.map(({node,index})=>{
+              return(
+              <article className="blog-post">
+                <div className="post-heading">
+                  <h3><a href="#">{node.frontmatter.title}</a></h3>
+                </div>
+                <div className="row">
+                  <div className="span3">
+                  <div class="post-image">
+                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="" />
+                </div>
+                  </div>
+                  <div className="span5">
+                  
+                    <div className="clearfix">
+                    </div>
+                    <p>
+                    {node.frontmatter.deskripsi}
+                    </p>
+                   
+                  </div>
+                </div>
+              </article>
+
+
+              )
+            })}
+        </div>
+    </div>
+  </section>
+</div>
+
   </div>
     </Layout>
 

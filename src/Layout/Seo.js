@@ -2,13 +2,12 @@
  import PropTypes from "prop-types"
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
- import "../Styles.css"
  
  function SEO({ description, meta, title }) {
    
   
    const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP."
-   const defaultTitle = `Samijaya Probolinggo adalah Toko Elektronik Terbaik di Probolinggo`
+   const defaultTitle = `Samijaya Probolinggo Toko Elektronik Terbaik di Probolinggo`
    const keywords=`lampu,toko,elektronik,probolinggo,samijaya,hp`
  
    return (
@@ -17,7 +16,7 @@
          lang:"id"
        }}
        title={title}
-       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+       titleTemplate={defaultTitle ? `%s ${defaultTitle}` : null}
        meta={[
          {
            name: `description`,
