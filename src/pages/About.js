@@ -4,7 +4,7 @@ import Layout from "../Layout/Layout"
 import {Link} from 'gatsby'
 export default function About() {
   return (
-   <Layout title="title">
+   <Layout title="About">
     <section id="subintro">
       <div className="jumbotron subhead" id="overview">
         <div className="container">

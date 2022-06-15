@@ -21,7 +21,7 @@ export default function Header() {
           <a className="brand logo" href="index.html">
           <img alt="Img" src="/logo2.jpeg"  className="logo" width="70" height="60"/>
           <span>
-          <b>Samijaya Probolinggo</b>
+          <b><h1>Samijaya Probolinggo</h1></b>
           </span>
           </a>
           {/* end logo */}
