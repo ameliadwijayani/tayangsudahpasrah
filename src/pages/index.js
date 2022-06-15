@@ -20,7 +20,7 @@ export default function Home({data}) {
                 <div className="row">
                   <div className="span12">
                     {/* start flexslider */}
-                          <img src="/gambarbg.webp" alt />
+                          <img src="/gambarbg.webp" alt="img" />
                     {/* end flexslider */}
                     
                   </div>
@@ -113,7 +113,7 @@ export default function Home({data}) {
               
               <div className="span3">
                 <div className="post-image">
-                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="" />
+                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" />
                 </div>
                 <div className="entry-meta">
                <i className="icon-square icon-48 icon-picture left" />
@@ -143,7 +143,7 @@ export default function Home({data}) {
   }
 
   return (
-    <Layout title="" >
+    <Layout title="Home" >
 
       <div id="site-content">
           {/* <img alt="Img" src="../cobabg.jpg" width="100%" height="1000" style={{float:"center"}}/> */}

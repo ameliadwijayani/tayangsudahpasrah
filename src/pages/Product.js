@@ -46,7 +46,7 @@ export default function Product({data}) {
                 <div className="row">
                   <div className="span3">
                   <div class="post-image">
-                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="" />
+                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" />
                 </div>
                   </div>
                   <div className="span5">
