@@ -44,33 +44,33 @@ export default function Home({data}) {
     <div className="row">
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-suitcase left active" />
-        <h4>Responsive bootstrap</h4>
+        <h4>Good Quality</h4>
         <div className="dotted_line">
         </div>
         <p className="left">
-          Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        Sebagai salah satu toko elektronik terkemuka di bidang perlampuan dan perangkat listrik, kami selalu berinovasi penuh untuk meningkatkan kualitas dan memperluas jangkauan pasar agar menjadi lebih baik.
         </p>
-        <a href="#">Learn more</a>
+        
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-plane left" />
-        <h4>Lot of features</h4>
+        <h4>Lot of Product</h4>
         <div className="dotted_line">
         </div>
         <p className="left">
-          Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        Kami berorientasi pada produksi dan penjualan produk perlampuan dan perangkat listrik yang bervariasi, mulai dari Lampu, TV, Handphone hingga perluasan untuk produk selanjutnya.
         </p>
-        <a href="#">Learn more</a>
+       
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-leaf left" />
-        <h4>Multipurpose template</h4>
+        <h4>Our Goal</h4>
         <div className="dotted_line">
         </div>
         <p className="left">
-          Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        Misi utama kami adalah selain terus menyediakan produk dengan kualitas terjamin dan harga yang kompetitif juga selalu berusaha memberikan layanan terbaik untuk setiap konsumen
         </p>
-        <a href="#">Learn more</a>
+       
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-wrench left" />
@@ -78,9 +78,9 @@ export default function Home({data}) {
         <div className="dotted_line">
         </div>
         <p className="left">
-          Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+         Produk-produk eLektronik telah melalui serangkaian pengujian yang beragam serta proses inspeksi yang ketat guna memberikan jaminan kepuasan konsumen.
         </p>
-        <a href="#">Learn more</a>
+        
       </div>
     </div>
     <div className="row">

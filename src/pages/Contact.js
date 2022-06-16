@@ -62,11 +62,11 @@ export default function Contact() {
             <div className="widget">
               <h4>Social network</h4>
               <ul className="social-links">
-                <li><a href="#" title="Twitter"><i className="icon-rounded icon-32 icon-twitter" /></a></li>
-                <li><a href="#" title="Facebook"><i className="icon-rounded icon-32 icon-facebook" /></a></li>
-                <li><a href="#" title="Google plus"><i className="icon-rounded icon-32 icon-google-plus" /></a></li>
-                <li><a href="#" title="Linkedin"><i className="icon-rounded icon-32 icon-linkedin" /></a></li>
-                <li><a href="#" title="Pinterest"><i className="icon-rounded icon-32 icon-pinterest" /></a></li>
+                <li><Link to="/" title="Twitter"><i className="icon-rounded icon-32 icon-twitter" /></Link></li>
+                <li><Link to="/" title="Facebook"><i className="icon-rounded icon-32 icon-facebook" /></Link></li>
+                <li><Link to="/" title="Google plus"><i className="icon-rounded icon-32 icon-google-plus" /></Link></li>
+                <li><Link to="/" title="Linkedin"><i className="icon-rounded icon-32 icon-linkedin" /></Link></li>
+                <li><Link to="/" title="Pinterest"><i className="icon-rounded icon-32 icon-pinterest" /></Link></li>
               </ul>
             </div>
           </aside>

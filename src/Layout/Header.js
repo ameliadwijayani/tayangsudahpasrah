@@ -18,12 +18,12 @@ export default function Header() {
       <div className="navbar-inner">
         <div className="container">
           {/* logo */}
-          <a className="brand logo" href="index.html">
+          <div className="brand logo" >
           <img alt="Img" src="/logo2.jpeg"  className="logo" width="70" height="60"/>
           <span>
-          <b><h1>Samijaya Probolinggo</h1></b>
+          <b><h1>Samijaya Probolinggo Elektronik</h1></b>
           </span>
-          </a>
+          </div>
           {/* end logo */}
           {/* top menu */}
           <div className="navigation">

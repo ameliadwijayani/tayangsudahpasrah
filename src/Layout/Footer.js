@@ -10,7 +10,7 @@ export default function Footer() {
                 <p>Jalan Bunga Mawar no 123</p>
                 </address>
 
-                <a href="#" className="phone">+ 08123456789</a>
+                <div className="phone">+ 08123456789</div>
             </div> 
 
             <div className="colophon">Copyright 2022 Samijaya Probolinggo. All rights reserved.</div>
