@@ -13,7 +13,7 @@ export default function Home({data}) {
             <div className="span12">
               <article>
                 <div className="heading">
-                  <h4>Single portfolio name here</h4>
+                  <h1>Single portfolio name here</h1>
                 </div>
                 <div className="clearfix">
                 </div>
@@ -44,7 +44,7 @@ export default function Home({data}) {
     <div className="row">
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-suitcase left active" />
-        <h4>Good Quality</h4>
+        <h2>Good Quality</h2>
         <div className="dotted_line">
         </div>
         <p className="left">
@@ -54,7 +54,7 @@ export default function Home({data}) {
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-plane left" />
-        <h4>Lot of Product</h4>
+        <h2>Lot of Product</h2>
         <div className="dotted_line">
         </div>
         <p className="left">
@@ -64,7 +64,7 @@ export default function Home({data}) {
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-leaf left" />
-        <h4>Our Goal</h4>
+        <h2>Our Goal</h2>
         <div className="dotted_line">
         </div>
         <p className="left">
@@ -74,7 +74,7 @@ export default function Home({data}) {
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-wrench left" />
-        <h4>With latest technology</h4>
+        <h2>With latest technology</h2>
         <div className="dotted_line">
         </div>
         <p className="left">
