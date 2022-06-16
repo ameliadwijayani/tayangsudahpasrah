@@ -121,7 +121,7 @@ export default function Home({data}) {
                 </div>
                 {/* end .entry-meta */}
                 <div className="entry-body">
-                    <h5 className="title">Amazing video post format</h5>
+                    <h4 className="title">Amazing video post format</h4>
                   <p>
                     {node.frontmatter.deskripsi}
                   </p>

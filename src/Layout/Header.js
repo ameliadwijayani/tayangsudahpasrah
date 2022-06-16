@@ -30,18 +30,18 @@ export default function Header() {
             <nav>
               <ul className="nav topnav">
                 <li className={`dropdown ${CurrentState==""?"active":""}`}>
-                  <Link to="/">Home</Link>
+                  <Link title="Home" to="/">Home</Link>
                 </li>
                 
                 <li className={`dropdown ${CurrentState=="/About"?"active":""}`}>
-                  <Link to="/About">About</Link>
+                  <Link title="About" to="/About">About</Link>
                 </li>
               
                 <li className={`dropdown ${CurrentState=="/Product"?"active":""}`}>
-                  <Link to="/Product">Product</Link>
+                  <Link title="Product" to="/Product">Product</Link>
                 </li>
                 <li className={`dropdown ${CurrentState=="/Contact"?"active":""}`}>
-                  <Link to="/Contact">Contact Us</Link>
+                  <Link title="Contact" to="/Contact">Contact Us</Link>
                 </li>
               
               </ul>
