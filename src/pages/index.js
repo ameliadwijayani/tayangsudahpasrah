@@ -74,7 +74,7 @@ export default function Home({data}) {
       </div>
       <div className="span3 features">
         <i className="icon-circled icon-32 icon-wrench left" />
-        <h2>With latest technology</h2>
+        <h2>Top technology</h2>
         <div className="dotted_line">
         </div>
         <p className="left">
@@ -89,9 +89,9 @@ export default function Home({data}) {
           <div className="row">
             <div className="span12">
               <div className="tagline_text">
-                <h2>Don't miss this special offer for limited time only!</h2>
+                <h2>Discover consumer lighting, electrical and project lighting products</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, vix ceteros noluisse intellegat ne, ex nec insolens liberavisse, no adhuc causae nominati duo.
+                Adjust light' brightness and color easily using Infrared Remote Control. Also completed with timer to automatically switch off lamp.
                 </p>
               </div>
               
@@ -121,7 +121,7 @@ export default function Home({data}) {
                 </div>
                 {/* end .entry-meta */}
                 <div className="entry-body">
-                    <h4 className="title">Amazing video post format</h4>
+                    <h4 className="title"></h4>
                   <p>
                     {node.frontmatter.deskripsi}
                   </p>

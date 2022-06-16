@@ -13,7 +13,7 @@ export default function About() {
               <div className="centered">
                 <h3>About us</h3>
                 <p>
-                  
+
                 Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP. Kami berdiri pada tahun 2008 di Kota Probolinggo dan telah menjual produk-produk andalan yang telah digunakan di seluruh pelosok tanah air. Terima kasih telah mengunjungi website kami dan atas kepercayaan anda dalam memilih produk-produk kami.
                 </p>
               </div>
@@ -92,42 +92,26 @@ export default function About() {
               <div className="accordion-group">
                 <div className="accordion-heading">
                   <a className="accordion-toggle active" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                    <i className="icon-minus" /> Database management</a>
+                    <i className="icon-minus" /> Garansi Produk</a>
                 </div>
                 <div id="collapseOne" className="accordion-body collapse in">
                   <div className="accordion-inner">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  Jika anda ingin mendapatkan service dari toko kami. Kami memberikan service selama 1 tahun dengan berbagai persyaratan. Untuk bisa mengklaim garansi yang diperlukan salah satunya yaitu membawa kartu garansi.
                   </div>
                 </div>
               </div>
               <div className="accordion-group">
                 <div className="accordion-heading">
                   <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                    <i className="icon-plus" /> UI development</a>
+                    <i className="icon-plus" /> Pelayanan Terjamin</a>
                 </div>
-                <div id="collapseTwo" className="accordion-body collapse">
+                <div id="collapseTwo" className="accordion-body collapse in">
                   <div className="accordion-inner">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  Jika pelayan kami tidak tersenyum dan mengucapkan terima kasih saat memberikan nota pembelian. Maka customer berhak mendapatkan gula 1 kilogram gratis.
                   </div>
                 </div>
               </div>
-              <div className="accordion-group">
-                <div className="accordion-heading">
-                  <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                    <i className="icon-plus" /> Social media</a>
-                </div>
-                <div id="collapseThree" className="accordion-body collapse">
-                  <div className="accordion-inner">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
+             
             </div>
             {/*end: Accordion */}
           </div>
