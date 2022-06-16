@@ -13,7 +13,7 @@ export default function Home({data}) {
             <div className="span12">
               <article>
                 <div className="heading">
-                  <h1>Single portfolio name here</h1>
+                  <h2>Single portfolio name here</h2>
                 </div>
                 <div className="clearfix">
                 </div>
@@ -116,7 +116,7 @@ export default function Home({data}) {
                  <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" />
                 </div>
                 <div className="entry-meta">
-               <i className="icon-square icon-48 icon-picture left" />
+           
                   <span className="date">{node.frontmatter.title}</span>
                 </div>
                 {/* end .entry-meta */}
