@@ -19,6 +19,10 @@
        titleTemplate={defaultTitle ? `%s ${defaultTitle}` : null}
        meta={[
          {
+           name: `google-site-verification`,
+           content: "mz3_TsrDPbD9CN4RPUWV47YorCUkPS9IFetpDMUo8cg",
+         },
+         {
            name: `description`,
            content: metaDescription,
          },
