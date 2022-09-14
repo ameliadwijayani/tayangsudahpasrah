@@ -1,5 +1,5 @@
 ---
 title: teh
-Images: https://www.republika.co.id/berita/przofo328/waktu-terbaik-minum-teh-menurut-pakar
+Images: https://static.republika.co.id/uploads/images/inpicture_slide/secangkir-teh-_190524103045-721.jpg
 deskripsi: teh enak
 ---
