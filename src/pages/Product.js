@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import { Link } from "gatsby"
 import Layout from "../Layout/Layout"
@@ -47,6 +48,11 @@ export default function Product({data}) {
                   <div className="span3">
                   <div class="post-image">
                  <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" />
+                 
+                <GatsbyImage
+                  alt="produk img"
+                  image={getImage(node.frontmatter.Images?.childImageSharp.gatsbyImageData)}
+                />
                 </div>
                   </div>
                   <div className="span5">
