@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../Layout/Layout"
-import { graphql } from "gatsby";
+import { graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 export default function Home({data}) {
   let ctr=0;
 
@@ -19,9 +21,16 @@ export default function Home({data}) {
                 </div>
                 <div className="row">
                   <div className="span12">
-                    {/* start flexslider */}
-                          <img src="/gambarbg.webp" alt="img" />
-                    {/* end flexslider */}
+                 
+                      {/* <img src="/gambarbg.webp" alt="img" /> */}
+                      <StaticImage
+                        src="../../static/gambarbg.webp"
+                        alt="A dinosaur"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={1300}
+                        height={700}
+                      />
                     
                   </div>
                 </div>
@@ -113,7 +122,11 @@ export default function Home({data}) {
               
               <div className="span3">
                 <div className="post-image">
-                 <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" />
+                <GatsbyImage
+                  alt="produk img"
+                  image={getImage(node.frontmatter.Images?.childImageSharp.gatsbyImageData)}
+                />
+                 {/* <img src={node.frontmatter.Images?.childImageSharp.gatsbyImageData.images.fallback.src } alt="img" /> */}
                 </div>
                 <div className="entry-meta">
            
