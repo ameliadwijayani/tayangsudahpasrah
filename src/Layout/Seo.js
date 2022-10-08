@@ -9,7 +9,7 @@
    const metaDescription = description || "Samijaya Probolinggo adalah toko yang menjual berbagai peralatan elektronik mulai dari lampu, kulkas, tv, blender bahkan HP."
    const defaultTitle = `Samijaya Probolinggo Toko Elektronik Terbaik di Probolinggo`
    const keywords=`lampu,toko,elektronik,probolinggo,samijaya,hp`
- 
+   
    return (
      <Helmet
        htmlAttributes={{
@@ -20,7 +20,7 @@
        meta={[
          {
            name: `google-site-verification`,
-           content: "mz3_TsrDPbD9CN4RPUWV47YorCUkPS9IFetpDMUo8cg",
+           content: "Hp0t1O2HuU3-AI298ARQ_S13lbJMyUymz5RWHMtw6DE",
          },
          {
            name: `description`,
