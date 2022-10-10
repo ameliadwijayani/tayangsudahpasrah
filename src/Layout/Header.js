@@ -19,14 +19,12 @@ export default function Header() {
         <div className="container">
           {/* logo */}
           <div className="brand logo" >
-          <img alt="Img" src="/logo2.jpeg"  className="logo" width="70" height="60"/>
-          <span>
-          <b><h1>Samijaya Probolinggo Elektronik</h1></b>
-          </span>
+            <img alt="Img" src="/logo2.jpeg"  className="logo" width="70" height="60"/>
+            <span>
+            <b><h1>Samijaya Probolinggo Elektronik</h1></b>
+            </span>
           </div>
-          {/* end logo */}
-          {/* top menu */}
-          <div >
+          <div class="navigation">
             <nav>
               <ul className="nav topnav">
                 <li className={`dropdown ${CurrentState==""?"active":""}`}>
