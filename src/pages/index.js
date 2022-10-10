@@ -14,11 +14,6 @@ export default function Home({data}) {
           <div className="row">
             <div className="span12">
               <article>
-                <div className="heading">
-                  <h2>Single portfolio name here</h2>
-                </div>
-                <div className="clearfix">
-                </div>
                 <div className="row">
                   <div className="span12">
                  

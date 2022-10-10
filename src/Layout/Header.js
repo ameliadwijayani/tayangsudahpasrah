@@ -26,7 +26,7 @@ export default function Header() {
           </div>
           {/* end logo */}
           {/* top menu */}
-          <div className="navigation">
+          <div >
             <nav>
               <ul className="nav topnav">
                 <li className={`dropdown ${CurrentState==""?"active":""}`}>
